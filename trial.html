@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="women">
+    <div id="w1"><img src="/images/black woman 1.jpg" alt=""> </div>
+    <div id="w2"> <img src="/images/black woman 2.jpeg" alt=""></div>
+    <div id="w3"> <img src="/images/black woman 3.jpg" alt=""></div>
+</section>
+    <style>
+        @keyframes kevine{
+            0%{opacity: 0;}
+            50%{opacity: 0.5;}
+            100%{opacity: 1;}
+        }
+  #women{
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+    height: 400px;
+    border: solid black;
+  }
+  #women img{
+    width: 200px;
+    /* top: 3em; */
+    height: 250px;
+    animation: linear infinite;
+    animation-name: kevine;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    /* animation-iteration-count: 5; */
+  }
+  #w1{
+border-style: solid;
+height: 250px;
+width: 200px;
+background: white;
+-webkit-box-reflect: right 10px linear-gradient(to left, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+transform: rotateY(180deg) rotateY(-10deg) skewY(-10deg);
+  }
+ #w2{
+    background: white;
+border-style: solid;
+width: 200px;
+height: 250px;
+margin-left: 10%;
+-webkit-box-reflect: right 10px linear-gradient(to right, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+transform: rotateY(0deg) rotateY(-10deg) skewY(-10deg);
+ }
+ #w3{
+    background: white;
+    width: 200px;
+ border-style: solid;
+ top: 10em;
+ height: 250px;
+ z-index: -1; 
+ transform:  rotateY(-40deg) skewY(0deg);
+  position: absolute;
+ }
+
+
+
+    </style>
+</body>
+</html>
