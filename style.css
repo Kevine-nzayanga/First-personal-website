@@ -79,23 +79,14 @@ border-radius: 40%;
  font-size: 52px; 
  color: white; 
  margin-top: 15%;  
- /* color: linear; 
-/* background: linear-gradient(rgba(247, 245, 246, 0.919),rgb(166, 161, 161),rgb(217, 198, 201));  
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;  */
 }
-.name h2{
-     border-radius: 10px;
-     /* margin-top: -11%; */
-     margin-left: 19%;
-      /* vertical-align: auto;
-     align-self: center;
-     align-content: center;  */
+.name p{
+     border-radius: 10px; 
+     margin-left: 36.5%;
       text-decoration: black; 
       color: black; 
-     /* text-align: ; */
-     width: 400px;
-  font-size: 30px; 
+     width: 350px;
+  font-size: 25px; 
       background: white; 
 } 
 .name img{
@@ -108,21 +99,27 @@ border-radius: 40%;
       50%{opacity: 0.5;}
      100%{opacity: 1;}
  }
- .space{
-    /* width: 1200px;
-    padding-left: 50px; */
-    /* align-content: center; */
-    /* align-self: center; */
-    /* text-align: center;
-    align-items: center; */
-     margin-top: -3%;
- }
- #khazi{
-     font-size: xx-large;
+ 
+
+ .khazi{
+    font-weight: 800;
+     font-size: 32px;
      text-align: center;
-     height: 100px;
+     /* height: 10px; */
      color: rgb(255, 255, 255);
        background-color: black;  
+ }
+ .khazi p{
+     src: url(sansation_bold.woff);
+     font-family: cursive;
+     padding-top: 20px;
+     width: 500px;
+margin-left:30% ;
+/* font-size: 40px; */
+     background-size: contain;
+     /* background-image: url(/images/black\ background.jpg); */
+     /* border: solid rgb(198, 124, 124);  */
+margin-top: 2%;
  }
 #women{
      
